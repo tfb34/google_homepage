@@ -1,85 +1,99 @@
-header {
- position: absolute;
- top:0;
- right:0;
- border:solid;
- border-color: pink;
- height:500px;
+body{
+	position: absolute;
+	top:0; bottom:0; right:0; left:0;
+	min-width: 1024px; 
+	min-height: 500px; 
+	border:solid;
+	border-color: red;
+    font-size: 12px;
+
 }
 
+header, .middle, footer{
+	position: relative;
+	border:solid;
+     margin:0 auto;
+}
+
+header{
+     text-align: right;
+     padding-right:20px; padding-top: 5px;
+}
 #box{
+	position: relative;
+	top:-10px;
+	padding-right: 5px;
+}
+#bell{
 	position: relative;
 	top:-5px;
 }
-#images{
+#images, #gmail{
 	position: relative;
-	top:-15px;
-}
-#gmail{
-	position: relative;
-	top:-15px;
+	top:-20px;
+	padding-right: 15px;
 }
 
-a{
-	color:#737373;
-	text-decoration: none;
-}
-img{
-	border:dashed;
-}
-a:hover{
-	text-decoration:underline;
-}
-#icon{
-	position: absolute;
-
-	top:220px;
-	left:550px;
+.middle{
+	border:dotted;
+	margin-top: 12%;
+	height:300px;
+	text-align: center;
 }
 #input{
-	position: absolute;
-	width: 600px; height:2.5em;
-	
-	border: solid;
-    border-width: 1px;
-	border-color: #d3d1cf;
-
-	top:350px; left:400px;
+	position: relative;
+	top:2em;
+	min-height: 2em;
+	min-width: 500px;
 }
-
 button{
-	height: 3em; 
-	background-color: #f1f1f1;
-	border: none;
-	color: #737373;
-	margin-top: 410px;
+	position: relative;
+	top:60px;
+    min-height:20px;
+    min-width: 70px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border:none;
+    color:gray;
 }
-.buttons{
-	margin-left: 570px;
 
-}
 footer{
 	position: absolute;
+	bottom: 0;right:0;left:0;
+	min-height: 35px;
 	background-color: #f2f2f2;
-	
-	height:50px; width: 100%;
-	left:0;
-	bottom:0px;
+	border:solid;
+	border-width: 1px;
+	border-color: #b3abab;
 }
-footer table{
+footer div{
+	position: absolute;
     display: inline-block;
-    margin-top: 10px;
-    padding-right: 500px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    bottom:0;
 }
-footer table td{
-	color:#737373;
-	padding-left: 25px;
-	
+footer a{
+	padding-left: 30px;
 }
-footer #table2{
-	padding-right: 25px;
-	padding-left: 339px;
+#table2{
+	background-color: red;
+	right:0;
+	padding-right: 30px;
 }
+a{
+	text-decoration: none;
+	color:#474747;
+
+}
+a:hover{
+	text-decoration: underline;
+}
+button:hover{
+	border:solid;
+	border-width: 1px;
+}
+
 
 
 
