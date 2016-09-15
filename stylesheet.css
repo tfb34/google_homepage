@@ -1,17 +1,31 @@
-
-.navBar{
-	position: absolute;
-	width:20%; height:45px;
-	right:20px;
+header {
+ position: absolute;
+ top:0;
+ right:0;
+ border:solid;
+ border-color: pink;
+ height:500px;
 }
-.navBar td{
-	text-align: center;
-    padding-top: 0;
 
+#box{
+	position: relative;
+	top:-5px;
 }
+#images{
+	position: relative;
+	top:-15px;
+}
+#gmail{
+	position: relative;
+	top:-15px;
+}
+
 a{
 	color:#737373;
 	text-decoration: none;
+}
+img{
+	border:dashed;
 }
 a:hover{
 	text-decoration:underline;
